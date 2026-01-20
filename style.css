@@ -129,6 +129,128 @@ nav{
     color: #00FF88;
 }
 
+.about-container{
+    background-color: #1A0B2E;
+    max-width: 1600px;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+.about-content{
+    width: 700px;
+    height: 222px;
+    margin: 0 auto;
+    
+}
+.about-content h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.about-content p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.about-views{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 600px;
+    margin: 0 auto;
+    gap: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #4e4e4f;
+    
+}
+.about-views h1{
+    color: #00FF88;
+}
+.about-views p{
+    color: #FFFFFF;
+}
+
+
+.choose-container{
+    background-color: #230E3D;
+    max-width: 1600px;
+    align-items: center;
+    
+}
+
+.choose-card{
+    width: 1200px;
+    height: 700px;
+    align-items: center;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,100px) ;
+}
+.card-1,.card-2,.card-3,.card-4,.card-5{
+    background-color:#351165 ;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    
+    
+    
+}
+.card-1{
+    grid-row: span 3;
+    grid-column: span 1;
+    height: 90%;
+    margin-top: 130px;
+    
+    
+    
+}
+.card-2{
+    grid-row:span span 2 ;
+    grid-column: span 2;
+    width: 80%;
+    margin-top: 200px;
+    
+    
+}
+.card-3{
+    grid-row:span 2 ;
+    grid-column: span 2;
+    width: 80%;
+    margin-top: 180px;
+    
+
+    
+}
+.card-4{
+    grid-row: span 2;
+    grid-column: span 2;
+    width: 80%;
+    position: relative;
+    bottom: 20px;
+    
+}
+.card-5{
+    grid-row: span 2;
+    grid-column: span 1;
+    height: 50%;
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+    width: 100%;
+    margin-right: 150px;
+}
+.heading{
+    color: #FFFFFF;
+    margin-left: 580px;
+    margin-bottom: 10px;
+    padding-top: 80px;
+}
+
+
+
 
 
 
@@ -178,4 +300,96 @@ nav{
     padding-right: 40px;
     
 }
+.about-container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.about-content{
+    width: 100%;
+    height: 100%;
+    margin: o auto;
+    padding-bottom: 50px;
+}
+
+.about-views{
+    width: 100%;
+    height: 250px;
+    padding: 50px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.choose-container{
+    display: flex;
+    flex-direction: column;
+}
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1,1fr);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.card-1{
+    grid-row: span 1;
+    grid-column: span 1;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+    
+}
+.card-2{
+    grid-row:span span 1 ;
+    grid-column: span 1;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    
+    
+}
+.card-3{
+    grid-row:span 1 ;
+    grid-column: span 1;
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    
+
+    
+}
+.card-4{
+    grid-row: span 1;
+    grid-column: span 1;
+    width: 100%;
+    height: 100%;
+    
+}
+.card-5{
+    grid-row: span 1;
+    grid-column: span 1;
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    color: #FFFFFF;
+    margin-left: 80px;
+    margin-bottom: 2px;
+    padding-top: 10px;
+}
+.card-1,.card-2,.card-3,.card-4,.card-5{
+    
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+
+
+
+}
+
 }
