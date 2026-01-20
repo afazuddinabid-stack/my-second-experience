@@ -288,6 +288,20 @@ nav{
     margin: 5px;
     text-align: center;
 }
+.video h1{
+    padding-bottom: 10px;
+    text-align: left;
+    padding-top: 10px;
+}
+.video p{
+    padding-bottom: 10px;
+    text-align: left;
+}
+.video h3{
+    color: #00FF88;
+    text-align: left;
+    padding: 10px;
+}
 .feature-h{
     color: #FFFFFF;
     margin: 30px;
@@ -461,6 +475,7 @@ nav{
 .choose-container{
     display: flex;
     flex-direction: column;
+    
 }
 .choose-card{
     display: grid;
@@ -476,7 +491,8 @@ nav{
     grid-row: span 1;
     grid-column: span 1;
     width: 100%;
-    height: 100%;
+    height: 287px;
+    margin-top: 400px;
     
     
     
@@ -487,8 +503,9 @@ nav{
     grid-row:span span 1 ;
     grid-column: span 1;
     width: 100%;
-    height: 100%;
+    height: 215px;
     margin-bottom: 10px;
+    margin-top: 100px;
     
     
 }
@@ -496,8 +513,8 @@ nav{
     grid-row:span 1 ;
     grid-column: span 1;
     width: 100%;
-    height: 80%;
-    margin-top: 10px;
+    height: 215px;
+    margin-top: 100px;
     
 
     
@@ -506,20 +523,23 @@ nav{
     grid-row: span 1;
     grid-column: span 1;
     width: 100%;
-    height: 100%;
+    height: 311px;
+    margin-top: 100px;
     
 }
 .card-5{
     grid-row: span 1;
     grid-column: span 1;
     width: 100%;
-    height: 100%;
+    height: 215px;
+    margin-left: 150px;
+    margin-top: 100px;
 }
 .heading{
     color: #FFFFFF;
-    margin-left: 80px;
+    margin-left: 88px;
     margin-bottom: 2px;
-    padding-top: 10px;
+    padding-top: 400px;
 }
 .card-1,.card-2,.card-3,.card-4,.card-5{
     
@@ -531,4 +551,83 @@ nav{
 
 }
 
+
+
+.featured-container{
+    width: 100%;
+    height: 1936px;
+    
+
 }
+
+
+
+.featured-episode{
+    width: 100%px;
+    height: 1250px;
+    padding-left: 60px;
+    
+}
+.featured-video{
+    width: 100%;
+    height: 1187px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.host-section{
+    width: 524px;
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+}
+.feature-h{
+    width: 400px;
+    height: 39px;
+}
+
+
+
+.footer-container{
+    width: 100%;
+    height:100%;
+    
+    
+}
+.footer-icon p{
+  width: 100%;
+  height: 24px;
+
+}
+.footer-icon{
+    width: 255px;
+    height: 64px;
+    display: grid;
+    padding: 5px;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+}
+
+
+.copyright{
+    
+    padding-top: 120px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
